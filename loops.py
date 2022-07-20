@@ -2,7 +2,11 @@
 lst=[1,2,3,4,5,6,7,8,9,10,23]
 for i in lst:
     print(i)
+<<<<<<< HEAD
 for i in lst[2:]:
+=======
+ for i in lst[2:]:
+>>>>>>> 2dc352204371b3fba66a0907edc6a716d041d6d3
     print(i)   
 # # range     
 table=range(2,21,2)
@@ -32,6 +36,7 @@ for i in [1,2,3]:
 #     print('not a prime')
 # else:
 #     print('prime')
+
 i=0
 while i<5:
     print(i) 
