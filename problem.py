@@ -34,3 +34,19 @@ while True:
         break
 print(list_)     
 
+
+##
+dic_={}
+while True:
+    info = input('enter subject and names')
+    info = info.split()
+    print(info)
+    if info[0]=='stop':
+        break
+    else:
+        if info[0] in dic_:
+            dic_[info[0]].add(info[1:])
+        else:
+            dic_[info[0]]={info[1]}
+print(dic_)            
+                
