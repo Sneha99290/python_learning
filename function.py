@@ -94,5 +94,19 @@ def even_(lst_):
 print(even_(lst_))
 
         
+# lambda functions---> are the functions in which we have to write single line code or we can  say short code
+
+# write a lambda function to return integers from 0 to n-1
+y = lambda n : [ i for i in range (n)]
+ret=y(5)
+print(ret)
+
+# filter function-->it filters and returns the answer for which function is true
+def is_even(n):
+    return n%2==0
+a = filter(is_even, [1,2,45,78,90,45,67])
+a = list(a)
+print(a)    
+
 
 

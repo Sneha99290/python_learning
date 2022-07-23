@@ -48,5 +48,7 @@ while True:
             dic_[info[0]].add(info[1:])
         else:
             dic_[info[0]]={info[1]}
-print(dic_)            
+print(dic_)     
+
+
                 
